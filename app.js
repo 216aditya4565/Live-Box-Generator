@@ -8,7 +8,7 @@ function greater() {
     for (let i = 0; i < number1; i++) {    
         count++; 
         var btn = document.createElement("button");  //Creating a variable btn of button type
-        btn.className = "btn1"; 
+        btn.className = "btn1"; //Assigns the required style to the boxes as given in CSS file
         btn.innerHTML = "new Button " + count; //Creating the required number of buttons as input given by user
         btn.style = "background-color:" + (color) + ";" //Giving colour to the boxes
         document.body.appendChild(btn);  //Inserting the button into the document
